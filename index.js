@@ -33,7 +33,7 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-let number = prompt("Inserisci un numero");
+/* let number = prompt("Inserisci un numero");
 
 if (number < 5) {
   alert("Tiny");
@@ -45,7 +45,7 @@ if (number < 5) {
   alert("Large");
 } else {
   alert("Huge");
-}
+} */
 
 //ESERCIZI SUI CICLI:
 
@@ -53,7 +53,15 @@ if (number < 5) {
   Mostra i numeri da 0 a 10 (incluso) in ordine ascendente, ma evitando di mostrare i numeri 3 e 8 (suggerimento: ripassa l'uso di "continue").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+for (let i = 0; i < 11; i++) {
+  if (i === 3) {
+    continue;
+  }
+  if (i === 8) {
+    continue;
+  }
+  console.log(`La variabile i vale ${i}`);
+}
 
 /* ESERCIZIO 11
   Scrivi un ciclo in JavaScript per iterare da 0 a 15. Per ciascun elemento, il ciclo deve controllare the il valore corrente sia pari o dispari, e mostrare il risultato in console.
