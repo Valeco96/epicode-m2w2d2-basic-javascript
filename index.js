@@ -33,7 +33,19 @@ ESERCIZIO 2
   num >= 20 - mostra in console "Huge"
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let number = prompt("Inserisci un numero");
+
+if (number < 5) {
+  alert("Tiny");
+} else if (number < 10) {
+  alert("Small");
+} else if (number < 15) {
+  alert("Medium");
+} else if (number < 20) {
+  alert("Large");
+} else {
+  alert("Huge");
+}
 
 //ESERCIZI SUI CICLI:
 
