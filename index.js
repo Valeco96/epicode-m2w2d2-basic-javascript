@@ -3,8 +3,24 @@
 /* ESERCIZIO 1
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
+let x = "num1";
+let y = "num2";
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+function numeroMassimo(x, y) {
+  if (x > y) {
+    return x;
+  } else {
+    return y;
+  }
+}
+
+let a = "num3";
+let b = "num4";
+
+function maxNumber(a, b) {
+  let massimo = a > b ? a : b;
+  return massimo;
+}
 
 /*
 ESERCIZIO 2
