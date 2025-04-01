@@ -3,7 +3,8 @@
 /* ESERCIZIO 1
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
-let x = "num1";
+
+/*let x = "num1";
 let y = "num2";
 
 function numeroMassimo(x, y) {
@@ -20,7 +21,7 @@ let b = "num4";
 function maxNumber(a, b) {
   let massimo = a > b ? a : b;
   return massimo;
-}
+}*/
 
 /*
 ESERCIZIO 2
@@ -53,7 +54,7 @@ if (number < 5) {
   Mostra i numeri da 0 a 10 (incluso) in ordine ascendente, ma evitando di mostrare i numeri 3 e 8 (suggerimento: ripassa l'uso di "continue").
 */
 
-for (let i = 0; i < 11; i++) {
+/*for (let i = 0; i < 11; i++) {
   if (i === 3) {
     continue;
   }
@@ -61,13 +62,19 @@ for (let i = 0; i < 11; i++) {
     continue;
   }
   console.log(`La variabile i vale ${i}`);
-}
+}*/
 
 /* ESERCIZIO 11
   Scrivi un ciclo in JavaScript per iterare da 0 a 15. Per ciascun elemento, il ciclo deve controllare the il valore corrente sia pari o dispari, e mostrare il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+for (let step = 0; step < 16; step++) {
+  if (step % 2 === 0) {
+    console.log(`${step} e' un numero pari`);
+  } else {
+    console.log(`${step} e' un numero dispari`);
+  }
+}
 
 //ESERCIZI EXTRA NON OBBLIGATORI
 
